@@ -8,10 +8,18 @@
 </head>
 
 <body>
+    <!-- Penulisan PHP dalam HTML -->
     <h1>
         Selamat Datang
         <?php echo "Nama Saya Dilla "; ?>
     </h1>
+    <br>
+
+    <!-- Penulisan HTML dalam PHP -->
+    <?php
+    echo "<h1>Selamat Datang, Nama Saya Dilla </h1>";
+    ?>
+
 </body>
 
 </html>
